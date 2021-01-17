@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>KnobKraft Orm Appcast</title>
+        <description>Update information for KnobKraft Orm Windows</description>
+        <language>en</language>
+        <item>
+            <title>Version 1.11.0</title>
+            <sparkle:releaseNotesLink>
+                https://your_domain/your_path/release_notes.html
+            </sparkle:releaseNotesLink>
+            <pubDate>20210117 18:30:00+1</pubDate>
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.10.6/knobkraft_orm_setup_1.10.6.exe"
+                       sparkle:version="1.11.0"
+                       length="0"
+                       type="application/octet-stream" />
+        </item>
+    </channel>
+</rss>
