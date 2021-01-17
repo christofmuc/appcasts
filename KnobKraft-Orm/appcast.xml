@@ -7,7 +7,7 @@
         <item>
             <title>Version 1.11.0</title>
             <sparkle:releaseNotesLink>
-                https://your_domain/your_path/release_notes.html
+                https://raw.githubusercontent.com/christofmuc/appcasts/master/KnobKraft-Orm/1.11.0.html
             </sparkle:releaseNotesLink>
             <pubDate>20210117 18:30:00+1</pubDate>
             <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.10.6/knobkraft_orm_setup_1.10.6.exe"
