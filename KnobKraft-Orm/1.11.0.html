@@ -7,6 +7,39 @@
     <!--script src="script.js"></script-->
   </head>
   <body>
-    This is new!
+  <h2>Release 1.11.0</h2>
+  <h3>
+    New features:
+	</h3>
+
+<ul>
+<li> Now has a "receive manual dump" button, that just opens a window waiting for messages from the selected synth. Close it and see if it can extract patches from the messages received. #69  </li>
+<li> Added a fourth master keyboard mode in the Macro tab - just select a fixed synth and always forward to that synth. This is useful during live jamming. </li>
+<li> Allow the Adaptations to implement a  function setupHelp() that returns a string displayed in the Adaptation view. Also, added a link there to a github Wiki page with the name of the synth, to capture more in depth information about the synth itself. If the page doesn't exist, Wiki-like it can be created right away. #70  </li>
+<li> Implementation of the PatchInterchangeFormat (PIF): You can export all selected patches into a JSON file in the PIF format that can be used to transport the sysex with its meta data like Favorite markers and categories, plus the source import information, from one database  to the next. These JSON files can be imported via the regular "Import from computer" dialog.  </li>
+<li> Adding WinSparkle for future automatic update checks. #56  </li>
+</ul>
+
+<h3>
+Bugfixes:
+</h3>
+<ul>
+<li> Don't die if there is a Python file that has a filename that is not allowed as a Python module name. Also print a proper warning and unload the module.  </li>
+<li> Trying to fix #78 by forcing case-insensitivity on the search query for searching by name  </li>
+</ul>
+<h3>
+New Adaptations:
+</h3>
+<ul>
+<li> Alpha implementation for Oberheim OB-X with Encore MIDI </li>
+<li> Alpha implementation for Oberheim OB-Xa with Encore MIDI  </li>
+</ul>
+<h3>
+Improvements for existing synths:
+</h3>
+<ul>
+<li> Andromeda A6 now implements numberFromDump(), and edit buffer requests. Has better fingerprinting to detect edit buffers equal to program dumps.  </li>
+<li> Elektra One now handles invalid JSON nicer (addition to #60 ) </li>
+</ul>
   </body>
 </html>
