@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Release Notes</title>
+    <!--link rel="stylesheet" href="style.css"-->
+    <!--script src="script.js"></script-->
+  </head>
+  <body>
+  <h2>Release 1.11.1</h2>
+<h3>
+Bugfixes:
+</h3>
+<ul>
+<li> Fixing crash after receiving manual dump and then doing edit buffer import again. </li>
+<li> Fix for #79, can't import freshly generated PatchInterchangeFormat file </li>
+<li> Fixed a bug in the auto updater not shutting down the software when running the installer. When updating via auto-update from 1.11.0, please close the KnobKraft Orm manually after the installer started. </li>
+</ul>
+
+<h3>
+New features:
+</h3>
+<ul>
+<li> Added in Test Crash menu item to test the crash reporting. If you feel to crash, just press it. </li>
+<li> To further test the Internet crash reporting, added a random user ID that makes crashes from the same user/machine identifiable. This is a random ID, nothing can be linked back to you. If you want to change it, just delete it from the settings file and you'll be somebody else. If you don't like it, don't opt in (or opt out now via the Help menu). </li>
+<li> New paging control has page numbers clickable, and abbreviates in case there are too many pages. #37 </li>
+</ul>
+
+<h3>
+New Adaptations:
+</h3>
+<ul>
+<li> Alpha implementation for Yamaha DX7, old school without auto-detection and receiving manual dumps only.</li>
+<li> Alpha implementation for Yamaha DX7IID/FD/s and compatibles with auto-detection and edit buffer and dump requests. Supplement voice data not supported yet.</li>
+</ul>
+<h3>
+Improvements for existing synths:
+</h3>
+<ul>
+<li> Fixed renaming in the Matrix 1000 adaptation to cause reindexing warning. Not relevant for regular Matrix 1000 users, as you use the native implementation and the adaptation.</li>
+</ul>
+  </body>
+</html>
