@@ -5,9 +5,22 @@
         <description>Update information for KnobKraft Orm Windows</description>
         <language>en</language>
         <item>
+            <title>Version 1.11.2</title>
+            <sparkle:releaseNotesLink>
+                https://christofmuc.github.io/appcasts/KnobKraft-Orm/1.11.2.html
+            </sparkle:releaseNotesLink>
+            <pubDate>20210122 23:15:00+1</pubDate>
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.11.2/knobkraft_orm_setup_1.11.2.exe"
+                       sparkle:version="1.11.2"
+                       sparkle:dsaSignature="MEQCIDKT4MXkSqO5WS1c4UMWH5Vw2p16hHhj054Ly1vA9eX8AiBedUvNJN1DIPmKonsQJWnSWaxGJV1v9ies5HHsPbWpGA=="
+                       sparkle:installerArguments="/SILENT /SP- /NOICONS"
+                       length="0"
+                       type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.11.1</title>
             <sparkle:releaseNotesLink>
-                https://raw.githubusercontent.com/christofmuc/appcasts/master/KnobKraft-Orm/1.11.1.html
+                https://christofmuc.github.io/appcasts/KnobKraft-Orm/1.11.1.html
             </sparkle:releaseNotesLink>
             <pubDate>20210120 12:15:00+1</pubDate>
             <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.11.1/knobkraft_orm_setup_1.11.1.exe"
@@ -20,7 +33,7 @@
         <item>
             <title>Version 1.11.0</title>
             <sparkle:releaseNotesLink>
-                https://raw.githubusercontent.com/christofmuc/appcasts/master/KnobKraft-Orm/1.11.0.html
+                https://christofmuc.github.io/appcasts/KnobKraft-Orm/1.11.0.html
             </sparkle:releaseNotesLink>
             <pubDate>20210118 00:15:00+1</pubDate>
             <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.11.0/knobkraft_orm_setup_1.11.0.exe"
