@@ -12,7 +12,7 @@
             <pubDate>20210405 23:28:00+1</pubDate>
             <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.12.0/knobkraft_orm_setup_1.12.0.exe"
                        sparkle:version="1.12.0"
-                       sparkle:dsaSignature="MEUCIQCUPGxAgQNibEMscHmbd22F7C4muz+ot18kRlRdcewrXwIgSb4QOuEFKyTGAqPFPbGCGVQtDf6YW+SgQPc2w77p7sA="
+                       sparkle:dsaSignature="MEUCIQDa8WMq0sWv6ccLcp2pqZz/h4R1gU2aU2Q6kK2pm8jFoQIgK62kZZREyJ1u/ahQnlYZuKTBxo7TjKcEKLrZA0yDjdY="
                        sparkle:installerArguments="/SILENT /SP- /NOICONS"
                        length="0"
                        type="application/octet-stream" />
