@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Release Notes</title>
+  <!--link rel="stylesheet" href="style.css"-->
+  <!--script src="script.js"></script-->
+</head>
+
+<body>
+  <h2>Release 1.12.2</h2>
+
+  <h3>
+    New features:
+  </h3>
+  <ul>
+    <li>Added export of patches into Standard MIDI Files as an option (#83)</li>
+    <li>Added a function to copy the current patch into the clipboard in a format suited for the CF sysex recorder (#87), somewhat of an experimental feature.</li>
+    <li>Added a new Routing mode checkbox to the Macro Setup page: "Forward Electra One". This is a quick and dirty mode
+      which opens the USB control port of
+      the Electra One and forwards all messages from it to the currently selected synth (not yet into the other
+      direction). This can be used to quickly test the Electra One
+      without the need of more than one USB cable, no further MIDI connections required.
+    </li>
+  </ul>
+
+  <h3>
+    Bugfixes:
+  </h3>
+  <ul>
+    <li>Fixing crashes resulting from trying to send sysex messages larger than 64 KByte as they might happen with
+      Electra One presets. The Crashes are fixed, but expect further problems when trying to send large presets directly
+      to the Electra One. We're working on it.</li>
+    <li>More stability fixes for crashes happening when you supply invalid Python adaptation code.</li>
+    <li>Don't print Sysex messages longer than 1000 bytes into the MIDI log view - this would make the application
+      sluggish/unresponsive.</li>
+    <li>Don't print additional newlines when an adaptation calls print()</li>
+    <li>Fix random crashes happening when switching the synth, caused by non-thread safe access of the new category list from the database.</li>
+    <li>The Electra One adaptation got some more stability fixes given that some app store presets are invalid JSON and could easily crash the Orm.</li>
+  </ul>
+
+</body>
+
+</html>
