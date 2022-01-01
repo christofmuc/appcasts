@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Release Notes</title>
+  <!--link rel="stylesheet" href="style.css"-->
+  <!--script src="script.js"></script-->
+</head>
+
+<body>
+  <h2>Release 1.14.0</h2>
+
+  This is the first major release since a while, and I have been working on an extension of the UI that has a lot of potential for future features - drag and drop of patches.
+
+  <h3>
+    New features:
+  </h3>
+  <ul>
+  <li>The old advanced search has been replaced by a new mechanism - lists and synth libraries in the tree. For the sake of simplicity, you can no longer search through a specified subset of synths by using the checkboxes, but you rather choose the "all patches" top level node in the tree to search through all synths.
+  </li><li>Moved the "By imports" lists to be just children of the synth itself, it felt very duplicated before.
+  </li><li>The tree now allows to create user lists of patches. Just create a list by clicking "Add new list", give it a name, and then drag patches from the grid on the list. The list has patches in order (you can rearrange the entries by dragging in the tree), and you can load the grid with the list by clicking on the list name. The list accepts patches from multiple synths!
+  </li><li>Double click on a list to bring up a dialog allowing you to rename the list
+  </li><li>The Orm will store one search per synth, and another one for the "all patches" - that means you can search through e.g. the OB-6 for bass patches and the Rev 2 for pads. When you switch back and forth between the two synths, the search you used last for the synth will be recalled. This is really useful if you like me tend to use one synth for a specific job (even during jamming).
+  </li><li>Added a trash can drag target - you can drag a single patch from the grid on the tash can to delete it from the database, or you can drag a whole list to delete the list, or you can drag a list entry on the trash to remove an item from the list.
+  </li><li>Added search for duplicate names functionality. This will actually limit the list to patches of duplicate names per patch, and will respect the hidden flag. This is useful for finding patches that are close duplicates but not identical. Use the compare patches dialog to see what is different.
+  </li><li>Added a new search mode "all must match" that turns the OR search for the categories into an AND search.
+  </li><li>A big warning box is opened when no Python version is found. This so far has only been a log message easily overlooked, and as on the Mac it is pretty hard to have the right Python versions, users would not be able to figure out why all the synths are missing. This is a workaround until I get finally to include Python with the Mac build as well. This is not an issue on Windows IIRC.    
+  </li>
+  </ul>
+
+  </body>
+
+</html>
