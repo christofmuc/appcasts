@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-    <channel>
+    <channel> 
         <title>KnobKraft Orm Appcast</title>
         <description>Update information for KnobKraft Orm Windows</description>
         <language>en</language>
+        <item>
+            <title>Version 1.14.2</title>
+            <sparkle:releaseNotesLink>
+                https://christofmuc.github.io/appcasts/KnobKraft-Orm/1.14.2.html
+            </sparkle:releaseNotesLink>
+            <pubDate>20220217 19:14:00+2</pubDate>
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.14.2/knobkraft_orm_setup_1.14.2.exe"
+                       sparkle:version="1.14.2"
+                       sparkle:dsaSignature="MEUCIAaELf3O84LQYIAJ4zGm3z2wkWY2PpPzd5vrd2mnoJIyAiEAvdCjppeAhuxB40piEugr2bYA8xBmJYVIE/d4Zz5Zoys="
+                       sparkle:installerArguments="/SILENT /SP- /NOICONS"
+                       length="0"
+                       type="application/octet-stream" />
+        </item>
         <item>
             <title>Version 1.14.1</title>
             <sparkle:releaseNotesLink>
