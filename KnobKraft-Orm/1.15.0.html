@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Release Notes</title>
+  <!--link rel="stylesheet" href="style.css"-->
+  <!--script src="script.js"></script-->
+</head>
+
+<body>
+  <h2>Release 1.15.0</h2>
+
+  First version with support for synts that use more than MIDI message per patch with the generic adaptation/python code!
+
+  Until now, for more complex synths like Roland and Yamaha you had to write C++ code, as the Adaptation in Python would assume each
+  patch consists of only a single MIDI message. This has been extended, the adaptation API has been extended so the Python code gets
+  bytes that could be more than one sysex message, and is allowed to return more than one message as well. 
+  
+  See the adaptation programming guide for more information, and the adptation for the Yamaha reface DX for an example implementation (view it on github).
+
+  <h3>new features</h3>
+
+  <ul>
+    <li>EditBufferCapability and ProgramDumpCapability now work with lists of MIDI messages everywhere in their interface.</li>
+    <li>Providing a Python based Yamaha reface DX implementation as example on how to use this in real life.</li>
+    <li>Imports can now be renamed - just double click it in the tree and edit the name in place.</li>
+    <li>Fix #151 in that no scrollbar appeared when your screen was not high enough or the font too big.</li>
+    <li>#128 Increase the size of the category buttons on the right hand side so they are easier to touch.</li>
+    <li>Change the way patch names are edited - introducing a new property panel on the right side, where you can edit the name or the layers directly.</li>
+    <li>Added a combo box to select the mode of display on the patch buttons - choose name, layers, program number only. Persist this per synth.</li>
+  </ul>
+
+  <h3>bug fixes</h3>
+
+<ul>
+  <li>Fix crash on start without </li>
+<li>Refresh user lists when opening a new database file</li>
+<li>Fix reloading auto cantegories correctly.</li>
+<li>Fix #130, missing refresh after delete patch via trash can drop.</li>
+<li>Changed the installer to auto-launch the software after install, so the update process is smoother (#146)</li>
+</ul>
+
+ </body>
+
+</html>
