@@ -11,14 +11,18 @@
 <body>
   <h2>Release 1.15.0</h2>
 
-  First version with support for synts that use more than MIDI message per patch with the generic adaptation/python code!
+  <p>First version with support for synts that use more than MIDI message per patch with the generic adaptation/python code!
 
+  </p>
+
+  <p>
   Until now, for more complex synths like Roland and Yamaha you had to write C++ code, as the Adaptation in Python would assume each
   patch consists of only a single MIDI message. This has been extended, the adaptation API has been extended so the Python code gets
   bytes that could be more than one sysex message, and is allowed to return more than one message as well. 
-  
+</p>
+  <p>
   See the adaptation programming guide for more information, and the adptation for the Yamaha reface DX for an example implementation (view it on github).
-
+</p>
   <h3>new features</h3>
 
   <ul>
