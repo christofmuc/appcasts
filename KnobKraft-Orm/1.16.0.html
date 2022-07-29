@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Release Notes</title>
+  <!--link rel="stylesheet" href="style.css"-->
+  <!--script src="script.js"></script-->
+</head>
+
+<body>
+  <h2>Release 1.16.0</h2>
+
+  <p>It has been a while since the last release, this one contains mostly bug fixes but also some improvements to the Generic Adaptations:</p>
+
+  <ul>
+    <li>the Adaptations can now implemen the LayeredPatch capability. Added this to the Adaptation Programming guide, and implemented it as an example for the Prophet 12. You can now see and change the name of both layers instead of just layer A.</li>
+    <li>the grid size is now specific to each synth and goes up to 10x10, so you can match it to the bank size of the synth. Another grid size is persisted for the "multi-mode", when all synths are selected.</li>
+    <li>all Sequential synths now support the numberFromDump() function, which can be used to extract the original program and bank from a patch. Newly imported patches will now show the program place correctly.</li>
+    <li>the generic Sequential module now can define friendly Bank name and friendly Program name. I implemented this as an example for the DSI Tetra and the DSI Prophet 12, where the name of the program now should match the display on the synth</li>
+    <li>to address #167, I added the menu item back that allows you to break out the naming rules with the regular expressions used for automatic category assigment based on the patch name. This might still be somewhat flaky, but can be very useful if it works.</li>
+  </ul>
+
+<h3>Bug fixes included:</h3>
+
+<ul>
+    <li>Fixed #162, when you turn on only a single synth, no need for the full header bar. Saves vertical space.</li>
+    <li>Fixed #168, new categories can be used by the import now without restarting the app</li>
+    <li>Fixed #169, which led to wrong patch - import/file associations when importing duplicates.</li>
+    <li>Fix problem with some Novation Ultranova banks not importing</li>
+    <li>DSI Tetra now supports all 4 banks, somehow we thought it has only 2</li>
+    <li>DSI Tetra now enumerates patches correctly, starting at 1 not at 0</li>
+</ul>
+
+ </body>
+
+</html>
