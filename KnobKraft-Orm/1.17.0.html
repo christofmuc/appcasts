@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Release Notes</title>
+  <!--link rel="stylesheet" href="style.css"-->
+  <!--script src="script.js"></script-->
+</head>
+
+<body>
+  <h2>Release 1.17.0</h2>
+
+  <p>This release finally brings you the Generic Roland adaptation. With this, it should be much easier and quicker to add all other modern Rolands.</p>
+
+  <h3>New features</h3>
+
+  <ul>
+    <li>Generic Roland adaptation. This works the same way as the long proven Generic Sequential adaptation - there is a Python module with a "normal" adaptation implementation
+      that can be parametrized for any Roland Synth. Examples are shipped (see below).
+    </li>
+    <li>The multi-message support per patch is now documented. Check out the adaptation programming guide and the functions isPartOfEditBufferDump and isPartOfSingleProgramDump</li>
+    <li>New function for adaptation programming: bankDescriptors allows banks with varying sizes, names, and marking them as ROM banks</li>
+    <li>New function for adaptation programming: storedTags allows adaptations to provide categories during import</li>
+    <li>Introducing the beginnings of a new knobkraft python module with helper functions shared by various adaptations.</li>
+    <li>Implement a generic test framework so all adaptations can benefit from tests written for one. Added a new mechanism for adaptations to provide test data for the common tests</li>
+  </ul>
+
+  <h3>New synths</h3>
+  <ul>
+    <li>Roland XV-3080, patch mode for the 128 user patches. Rythms and Performances not implemented yet. This works, as I have tested it with a device here.
+       The adaptation also explicitly implements the backward compatibility of the  synth, and allows you to load patches for the JV-80/90 and JV-1080/2080 families,
+      which will be sent unchanged to the synth, which understands the old patches.</li>
+    <li>Roland JV-1080/2080, patch mode for the user patches. This is untested, but if the synth behaves like the XV-3080 it should work out of the box.</li>
+    <li>Roland JV-80/880/90/1000, patch mode for the user patches. This is untested, but if the synth behaves like the XV-3080 it should work out of the box.</li>
+    <li>Novation Summit/Peak adaptation done purely by the manual as an example for the new features. If it doesn't work, please give feedback!</li>
+    <li>DSI Tempest - the Tempest is really limited in that the computer can not query the patches. But this should work with the receive manual dump mechanism. Looking for feedback!</li>
+  </ul>
+
+  <h3>Bug fixes</h3>
+
+  <ul>
+    <li>Fix bug where edit buffer is not cleared - it only worked once per start of software. Special thanks to @howdihow for finding and fixing this!</li>
+    <li>Fix #174 with the duplicate name search having an ambigeous column "name"    </li>
+    <li>Include fix for edit buffer request for isPartOfEditBuffer() mechanism</li>
+  </ul>
+
+</body>
+
+</html>
