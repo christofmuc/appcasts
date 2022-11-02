@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Release Notes</title>
+  <!--link rel="stylesheet" href="style.css"-->
+  <!--script src="script.js"></script-->
+</head>
+
+<body>
+  <h2>Release 1.17.1</h2>
+
+  <h3>New features</h3>
+
+  <ul>
+    <li>Support Handshake/ACK messages in the Generic Adaptation. The isPartOfEditBufferDump() and isPartOfSingleProgramDump() methods can now optionally return a tuple of a bool and a list of MIDI bytes instead of just a bool.
+      If they do, the MIDI bytes are sent to the synth in reply to the message received.
+    </li>
+  </ul>
+
+  <h3>New synths</h3>
+  <ul>
+    <li>Updated Korg Minilogue XD adaptation, now supports fingerprinting and friendly Program Name Display</li>
+  </ul>
+
+  <h3>Bug fixes</h3>
+
+  <ul>
+    <li>MacOS Python now found when installed from MacPorts (thanks to @breun for the PR!), and most importantly use environment variable ORM_PYTHON to allow the user to provide a custom path to the installed Python</li>
+    <li>Fixed fingerprinting algorithm in Generic Roland module, reindex your patches and get better deduplication!</li>
+  </ul>
+
+</body>
+
+</html>
