@@ -5,6 +5,19 @@
         <description>Update information for KnobKraft Orm Windows</description>
         <language>en</language>
         <item>
+            <title>Version 2.0.0</title>
+            <sparkle:releaseNotesLink>
+                https://christofmuc.github.io/appcasts/KnobKraft-Orm/2.0.0.html
+            </sparkle:releaseNotesLink>
+            <pubDate>20230108 16:00:00+2</pubDate>
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/2.0.0/knobkraft_orm_setup_2.0.0.exe"
+                       sparkle:version="2.0.0"
+                       sparkle:dsaSignature="MEYCIQC4hFqExWzEyvc/v5k7XlZpHHEjGFXinRoz2eb91yIjyQIhAI8WGTL4MRew
+iezlPiu3X/koPR4dBNMptLDaOTSvSkvC"
+                       sparkle:installerArguments="/SILENT /SP- /NOICONS"
+                       length="0"
+                       type="application/octet-stream" />
+        </item>
             <title>Version 1.17.1</title>
             <sparkle:releaseNotesLink>
                 https://christofmuc.github.io/appcasts/KnobKraft-Orm/1.17.1.html

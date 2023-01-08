@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Release Notes</title>
+  <!--link rel="stylesheet" href="style.css"-->
+  <!--script src="script.js"></script-->
+</head>
+
+<body>
+  <h2>KnobKraft 2.0.0 (Beta)</h2>
+
+  <h3>This is it!</h3>
+
+  A long time in progress, this 2.0.0 release contains too many changes to list here. The main important driving feature is my take on synth bank management.
+
+  This is supported for now for all synths that have the Program Dump Capability implemented, which is the majority of modern synths. 
+
+  The main features addressed are the following github issues:
+
+  <ul>
+    <li>#9 Bank management -   How does it work? KnobKraft can query and remember your synth's storage banks content, and with drag and drop you can modify these banks and then send them into the synth. You can also create user banks
+      with a certain target bank, and load these as a whole into the synth. These are really just a special case of patch lists, in that they are taking patches only for a specific synth, and always have the exact
+      number of patches the synth bank can store. You can also drag lists of patches into a synth bank.     
+    </li>
+    <li>#19 Bulk rename - there is a new edit dialog that can be used to easily rename all patches currently selected, or just imported. It also has a feature to create the patch name from the file name, making it ideal to import legacy patches from single syx files. Additionally, supports clipboard copy and paste of list of patch names, so you can process your patch name table with Excel or similar tools.</li>
+    <li>#149 and #176 Patch Selector mode - Additionally, if KnobKraft now knows that a patch is stored in the synth already, it will issue a bank change + program change instead of sending the whole sysex data for faster patch switching. </li>
+    <li>#173 New Favoite/Hidden search - Favorite and Hidden are now no longer mutually exclusive, and you can actually use the new search options to produce any combination of hidden, favorite, or not marked (neither nor) patches. This is useful to find e.g. patches that were accidentally hidden.</li>
+  </ul>
+
+  <h3>New synths</h3>
+  <ul>
+    <li>Added John Bowen Solaris support. Special thanks to @conversy for this community-contributed adaptation!</li>
+    <li>Fixes and improvements for the Pioneer Toraiz AS-1 adaptation, thanks to @zzort!</li>
+    <li>Updated Novation Peak/Summit adaptation with a fix for program dump request.</li>
+  </ul>
+
+  <h3>Bug fixes</h3>
+
+  Too many to list, but probably also introducing many new ones. Treat this as a beta version and give me feedback!
+
+</body>
+
+</html>
