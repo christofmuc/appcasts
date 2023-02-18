@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Release Notes</title>
+  <!--link rel="stylesheet" href="style.css"-->
+  <!--script src="script.js"></script-->
+</head>
+
+<body>
+  <h2>KnobKraft 2.0.2 (Beta) - still more bug fixes</h2>
+
+  <p>Thanks for all the feedback, keep it coming!</p>
+
+  <h3>New features</h3>
+
+  <ul>
+    <li>Allow to create a new user bank from an existing user bank by dragging the bank onto the add new bank item im the tree. This opens the dialog to specify which new bank this should become.</li>
+  </ul>
+
+<h3>Bug fixes</h3>
+
+<ul>
+  <li>Fix the buttons of the synth bank panel sharing the program number (actually the subtitle) with other patch buttons</li>
+  <li>Fix the bank always sending to bank 0. This addresses the first part of #216</li>
+    <li>#217, Adaptations which have implemented nameFromDump() but not renamePatch() no longer show names. Made renamePatch() properly optional now.</li>
+    <li>Fix UI of edit bank dialog - do not show display bank selector, as retargeting a bank is currently disallowed. Addresses part of #216.</li>
+    <li>Addressing part of #224: Trimming the names hides whitespace differences when searching for duplicate names</li>
+    <li>Deactivating a synth clears the synth bank if it is still open. This addresses #222.</li>
+  </ul>
+</body>
+
+</html>
