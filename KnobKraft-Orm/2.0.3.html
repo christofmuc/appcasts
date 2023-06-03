@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Release Notes</title>
+  <!--link rel="stylesheet" href="style.css"-->
+  <!--script src="script.js"></script-->
+</head>
+
+<body>
+  <h2>KnobKraft 2.0.3 - More powerful bank dumps - MKS-70, Kijimi, Kyra, OB-X8</h2>
+
+  <h3>New features</h3>
+
+
+  <ul>
+  <li> [Modor NF-1] Split the BankDumpCapability in two - implementing the requestBankDump is optional now and its own capability. So you can have adaptations that read bank dumps but not necessarily need to be able to request it from the synth</li>
+  <li> Enhanced the BankDumpCapability - it can now create patches that consist of multiple messages, and gets all bank messages handed in at once. This allows for implementation of more complex bank dumps like for the Roland MKS-70. The old function is still
+available for the adaptations, but new adaptations should implement the extractPatchesFromAllBankMessages method instead of the extractPatchesFromBank method.</li>
+  </ul>
+
+<h3>Synths</h3>
+
+<ul>
+  <li> #239, Fix KorgMS2000 and microKorg family compatibility. Thanks to @BM-01!</li>
+  <li> #248, Fix support for Prophet-5/Prophet-10 desktop module. Thanks to @jpursey!</li>
+  <li> #74, Added BC Kijimi support. Needs more testing, but could work for you!</li>
+  <li> #100, Added Roland MKS-70 support. Alpha version, needs more testing. This mainly supports the Vecoven V4 firmware, the V3 versions need more work.</li>
+  <li> Started an implementation for the Oberheim OB-X8. Would need somebody with the device to experiment.</li>
+  <li> Started an implementation for the Waldorf Kyra. Would need sombody with the device to experiment.</li>
+</ul>
+
+<h3>Bug fixes</h3>
+ 
+<ul>
+  <li> Banks are no longer called "Bank something", to prevent us from printing Bank Bank A or similar. Adaptations need to put Bank into the friendlyBankName if they want to</li>
+  <li> Fix #237, new database shows favorites defined with previous database</li>
+  <li> Fix #223, log message repeated over and over again</li>
+  <li> Fix #242, Linux build problem</li>
+</ul>
+
+</body>
+
+</html>
