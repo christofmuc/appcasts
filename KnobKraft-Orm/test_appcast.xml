@@ -162,5 +162,11 @@
             <pubDate>20230709 16:35:23+2</pubDate>
             <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/2.0.3/knobkraft_orm_setup_2.0.3.exe" sparkle:version="2.0.3" sparkle:dsaSignature="MEYCIQDfxp6xbgLv0IOaL23faKTZ5ksLirJlOp95ywcp0XJs7gIhAJVj80kfUXD+6g2mdlRs0xCtjSY/6CGA1TdL/4Nf/wl0" sparkle:installerArguments="/SILENT /SP- /NOICONS /restartapplications" length="0" type="application/octet-stream"/>
         </item>
+        <item>
+            <title>Version 2.0.4</title>
+            <sparkle:releaseNotesLink>https://christofmuc.github.io/appcasts/KnobKraft-Orm/2.0.4.html</sparkle:releaseNotesLink>
+            <pubDate>20230709 16:43:12+0</pubDate>
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/2.0.4/knobkraft_orm_setup_2.0.4.exe" sparkle:version="2.0.4" sparkle:dsaSignature="MEQCIEiW9vT8Y91qtXwjUHmXbGIWckP4o3+TaRwnVjjVzcblAiBz8cDP898V7yXb&#10;upuG57vv4IbEmqDXlf31FXdDxbnOBA==&#10;" sparkle:installerArguments="/SILENT /SP- /NOICONS /restartapplications" length="0" type="application/octet-stream"/>
+        </item>
     </channel>
 </rss>
