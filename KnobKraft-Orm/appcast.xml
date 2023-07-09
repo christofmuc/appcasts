@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-    <channel> 
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
         <title>KnobKraft Orm Appcast</title>
         <description>Update information for KnobKraft Orm Windows</description>
         <language>en</language>
@@ -10,13 +10,7 @@
                 https://christofmuc.github.io/appcasts/KnobKraft-Orm/2.0.3.html
             </sparkle:releaseNotesLink>
             <pubDate>20230218 17:25:00+1</pubDate>
-            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/2.0.3/knobkraft_orm_setup_2.0.3.exe"
-                       sparkle:version="2.0.3"
-                       sparkle:dsaSignature="MEQCIG3zFQaXGsmyWCBj+Ln1Q27fgw8IZ4N/tcatlPu8cDozAiBoVX1+mWdU/xK3
-jjJKX+8x4wWw6DrZtH4xBwkmPCQyYw=="
-                       sparkle:installerArguments="/SILENT /SP- /NOICONS"
-                       length="0"
-                       type="application/octet-stream" />
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/2.0.3/knobkraft_orm_setup_2.0.3.exe" sparkle:version="2.0.3" sparkle:dsaSignature="MEQCIG3zFQaXGsmyWCBj+Ln1Q27fgw8IZ4N/tcatlPu8cDozAiBoVX1+mWdU/xK3 jjJKX+8x4wWw6DrZtH4xBwkmPCQyYw==" sparkle:installerArguments="/SILENT /SP- /NOICONS" length="0" type="application/octet-stream"/>
         </item>
         <item>
             <title>Version 2.0.2</title>
@@ -24,13 +18,7 @@ jjJKX+8x4wWw6DrZtH4xBwkmPCQyYw=="
                 https://christofmuc.github.io/appcasts/KnobKraft-Orm/2.0.2.html
             </sparkle:releaseNotesLink>
             <pubDate>20230218 17:25:00+1</pubDate>
-            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/2.0.2/knobkraft_orm_setup_2.0.2.exe"
-                       sparkle:version="2.0.2"
-                       sparkle:dsaSignature="MEYCIQDfxp6xbgLv0IOaL23faKTZ5ksLirJlOp95ywcp0XJs7gIhAJVj80kfUXD+
-6g2mdlRs0xCtjSY/6CGA1TdL/4Nf/wl0"
-                       sparkle:installerArguments="/SILENT /SP- /NOICONS"
-                       length="0"
-                       type="application/octet-stream" />
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/2.0.2/knobkraft_orm_setup_2.0.2.exe" sparkle:version="2.0.2" sparkle:dsaSignature="MEYCIQDfxp6xbgLv0IOaL23faKTZ5ksLirJlOp95ywcp0XJs7gIhAJVj80kfUXD+ 6g2mdlRs0xCtjSY/6CGA1TdL/4Nf/wl0" sparkle:installerArguments="/SILENT /SP- /NOICONS" length="0" type="application/octet-stream"/>
         </item>
         <item>
             <title>Version 2.0.1</title>
@@ -38,13 +26,7 @@ jjJKX+8x4wWw6DrZtH4xBwkmPCQyYw=="
                 https://christofmuc.github.io/appcasts/KnobKraft-Orm/2.0.1.html
             </sparkle:releaseNotesLink>
             <pubDate>20230215 23:45:00+1</pubDate>
-            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/2.0.1/knobkraft_orm_setup_2.0.1.exe"
-                       sparkle:version="2.0.1"
-                       sparkle:dsaSignature="MEQCIA75onSZwLirNLbQjoXdpf3d1AIVXVdR5AfUStzn9JYLAiA2RFR2lA0wNP9M
-WNgDy/iUE1+zD0MgHSY0iQrD+rzj0Q=="
-                       sparkle:installerArguments="/SILENT /SP- /NOICONS"
-                       length="0"
-                       type="application/octet-stream" />
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/2.0.1/knobkraft_orm_setup_2.0.1.exe" sparkle:version="2.0.1" sparkle:dsaSignature="MEQCIA75onSZwLirNLbQjoXdpf3d1AIVXVdR5AfUStzn9JYLAiA2RFR2lA0wNP9M WNgDy/iUE1+zD0MgHSY0iQrD+rzj0Q==" sparkle:installerArguments="/SILENT /SP- /NOICONS" length="0" type="application/octet-stream"/>
         </item>
         <item>
             <title>Version 2.0.0</title>
@@ -52,13 +34,7 @@ WNgDy/iUE1+zD0MgHSY0iQrD+rzj0Q=="
                 https://christofmuc.github.io/appcasts/KnobKraft-Orm/2.0.0.html
             </sparkle:releaseNotesLink>
             <pubDate>20230108 16:00:00+2</pubDate>
-            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/2.0.0/knobkraft_orm_setup_2.0.0.exe"
-                       sparkle:version="2.0.0"
-                       sparkle:dsaSignature="MEYCIQC4hFqExWzEyvc/v5k7XlZpHHEjGFXinRoz2eb91yIjyQIhAI8WGTL4MRew
-iezlPiu3X/koPR4dBNMptLDaOTSvSkvC"
-                       sparkle:installerArguments="/SILENT /SP- /NOICONS"
-                       length="0"
-                       type="application/octet-stream" />
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/2.0.0/knobkraft_orm_setup_2.0.0.exe" sparkle:version="2.0.0" sparkle:dsaSignature="MEYCIQC4hFqExWzEyvc/v5k7XlZpHHEjGFXinRoz2eb91yIjyQIhAI8WGTL4MRew iezlPiu3X/koPR4dBNMptLDaOTSvSkvC" sparkle:installerArguments="/SILENT /SP- /NOICONS" length="0" type="application/octet-stream"/>
         </item>
         <item>
             <title>Version 1.17.1</title>
@@ -66,13 +42,7 @@ iezlPiu3X/koPR4dBNMptLDaOTSvSkvC"
                 https://christofmuc.github.io/appcasts/KnobKraft-Orm/1.17.1.html
             </sparkle:releaseNotesLink>
             <pubDate>20221102 01:15:00+2</pubDate>
-            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.17.1/knobkraft_orm_setup_1.17.1.exe"
-                       sparkle:version="1.17.1"
-                       sparkle:dsaSignature="MEUCIQC0hcDZ5Mb/ajfzoE+k+4WAWiGbVlRZVgdQguPaVvX7SwIgLm15adj4QH8+
-aEhm8sqDCqGLBkn/wXIqDedLWmIy99s="
-                       sparkle:installerArguments="/SILENT /SP- /NOICONS"
-                       length="0"
-                       type="application/octet-stream" />
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.17.1/knobkraft_orm_setup_1.17.1.exe" sparkle:version="1.17.1" sparkle:dsaSignature="MEUCIQC0hcDZ5Mb/ajfzoE+k+4WAWiGbVlRZVgdQguPaVvX7SwIgLm15adj4QH8+ aEhm8sqDCqGLBkn/wXIqDedLWmIy99s=" sparkle:installerArguments="/SILENT /SP- /NOICONS" length="0" type="application/octet-stream"/>
         </item>
         <item>
             <title>Version 1.17.0</title>
@@ -80,13 +50,7 @@ aEhm8sqDCqGLBkn/wXIqDedLWmIy99s="
                 https://christofmuc.github.io/appcasts/KnobKraft-Orm/1.17.0.html
             </sparkle:releaseNotesLink>
             <pubDate>20221003 23:40:00+2</pubDate>
-            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.17.0/knobkraft_orm_setup_1.17.0.exe"
-                       sparkle:version="1.17.0"
-                       sparkle:dsaSignature="MEQCIAufp04l33tNO8wYJtgoV91l3AZXzyDzUXbJ9cwWVjygAiAUyfdYL5h1Z/8x
-8W9gH9lsza6F5cbNFI8CwNihPm5R9g=="
-                       sparkle:installerArguments="/SILENT /SP- /NOICONS"
-                       length="0"
-                       type="application/octet-stream" />
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.17.0/knobkraft_orm_setup_1.17.0.exe" sparkle:version="1.17.0" sparkle:dsaSignature="MEQCIAufp04l33tNO8wYJtgoV91l3AZXzyDzUXbJ9cwWVjygAiAUyfdYL5h1Z/8x 8W9gH9lsza6F5cbNFI8CwNihPm5R9g==" sparkle:installerArguments="/SILENT /SP- /NOICONS" length="0" type="application/octet-stream"/>
         </item>
         <item>
             <title>Version 1.16.1</title>
@@ -94,13 +58,7 @@ aEhm8sqDCqGLBkn/wXIqDedLWmIy99s="
                 https://christofmuc.github.io/appcasts/KnobKraft-Orm/1.16.1.html
             </sparkle:releaseNotesLink>
             <pubDate>20220730 16:15:00+2</pubDate>
-            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.16.1/knobkraft_orm_setup_1.16.1.exe"
-                       sparkle:version="1.16.1"
-                       sparkle:dsaSignature="MEUCIQCX1wPFXZUBy3w91vUsSbROE158je2sBDZc4QA7HSPmuQIgIbzrnRcKbk19
-R1budF+uANRSAVkGCkiI7Hd4agn2BCg="
-                       sparkle:installerArguments="/SILENT /SP- /NOICONS"
-                       length="0"
-                       type="application/octet-stream" />
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.16.1/knobkraft_orm_setup_1.16.1.exe" sparkle:version="1.16.1" sparkle:dsaSignature="MEUCIQCX1wPFXZUBy3w91vUsSbROE158je2sBDZc4QA7HSPmuQIgIbzrnRcKbk19 R1budF+uANRSAVkGCkiI7Hd4agn2BCg=" sparkle:installerArguments="/SILENT /SP- /NOICONS" length="0" type="application/octet-stream"/>
         </item>
         <item>
             <title>Version 1.16.0</title>
@@ -108,13 +66,7 @@ R1budF+uANRSAVkGCkiI7Hd4agn2BCg="
                 https://christofmuc.github.io/appcasts/KnobKraft-Orm/1.16.0.html
             </sparkle:releaseNotesLink>
             <pubDate>20220729 16:44:00+2</pubDate>
-            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.16.0/knobkraft_orm_setup_1.16.0.exe"
-                       sparkle:version="1.16.0"
-                       sparkle:dsaSignature="MEQCIEZexCW0zJnIGvAMktsU4zDvOyHlXR9FjFT2w8q7lZIfAiAtjpr1J7wqRQLp
-XaGsIgSh7KJOX9DFJKChs4I+ztO+6g=="
-                       sparkle:installerArguments="/SILENT /SP- /NOICONS"
-                       length="0"
-                       type="application/octet-stream" />
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.16.0/knobkraft_orm_setup_1.16.0.exe" sparkle:version="1.16.0" sparkle:dsaSignature="MEQCIEZexCW0zJnIGvAMktsU4zDvOyHlXR9FjFT2w8q7lZIfAiAtjpr1J7wqRQLp XaGsIgSh7KJOX9DFJKChs4I+ztO+6g==" sparkle:installerArguments="/SILENT /SP- /NOICONS" length="0" type="application/octet-stream"/>
         </item>
         <item>
             <title>Version 1.15.1</title>
@@ -122,13 +74,7 @@ XaGsIgSh7KJOX9DFJKChs4I+ztO+6g=="
                 https://christofmuc.github.io/appcasts/KnobKraft-Orm/1.15.1.html
             </sparkle:releaseNotesLink>
             <pubDate>20220514 19:39:00+2</pubDate>
-            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.15.1/knobkraft_orm_setup_1.15.1.exe"
-                       sparkle:version="1.15.1"
-                       sparkle:dsaSignature="MEUCIQCb/dDYOH3xqnJ8nUof7tV2+3XKyhx7gw3beJJK1t5huQIgGZ5RPHwlZZd5
-X6/n5zjFXa8kaedmso9G777a5pzaQSc="
-                       sparkle:installerArguments="/SILENT /SP- /NOICONS"
-                       length="0"
-                       type="application/octet-stream" />
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.15.1/knobkraft_orm_setup_1.15.1.exe" sparkle:version="1.15.1" sparkle:dsaSignature="MEUCIQCb/dDYOH3xqnJ8nUof7tV2+3XKyhx7gw3beJJK1t5huQIgGZ5RPHwlZZd5 X6/n5zjFXa8kaedmso9G777a5pzaQSc=" sparkle:installerArguments="/SILENT /SP- /NOICONS" length="0" type="application/octet-stream"/>
         </item>
         <item>
             <title>Version 1.15.0</title>
@@ -136,13 +82,7 @@ X6/n5zjFXa8kaedmso9G777a5pzaQSc="
                 https://christofmuc.github.io/appcasts/KnobKraft-Orm/1.15.0.html
             </sparkle:releaseNotesLink>
             <pubDate>20220424 19:28:00+2</pubDate>
-            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.15.0/knobkraft_orm_setup_1.15.0.exe"
-                       sparkle:version="1.15.0"
-                       sparkle:dsaSignature="MEQCIHsFKDViLyQbw2lXnAmElMDP1bxELy6hPfoGaPwM5jPWAiANxdInd8SSJLkE
-Qbre742jrDAx9fE3WIx8UFjo6OYRdA=="
-                       sparkle:installerArguments="/SILENT /SP- /NOICONS"
-                       length="0"
-                       type="application/octet-stream" />
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.15.0/knobkraft_orm_setup_1.15.0.exe" sparkle:version="1.15.0" sparkle:dsaSignature="MEQCIHsFKDViLyQbw2lXnAmElMDP1bxELy6hPfoGaPwM5jPWAiANxdInd8SSJLkE Qbre742jrDAx9fE3WIx8UFjo6OYRdA==" sparkle:installerArguments="/SILENT /SP- /NOICONS" length="0" type="application/octet-stream"/>
         </item>
         <item>
             <title>Version 1.14.2</title>
@@ -150,12 +90,7 @@ Qbre742jrDAx9fE3WIx8UFjo6OYRdA=="
                 https://christofmuc.github.io/appcasts/KnobKraft-Orm/1.14.2.html
             </sparkle:releaseNotesLink>
             <pubDate>20220217 19:14:00+2</pubDate>
-            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.14.2/knobkraft_orm_setup_1.14.2.exe"
-                       sparkle:version="1.14.2"
-                       sparkle:dsaSignature="MEUCIEK+SIiTzjz+sirM5Icj0TRq9XBfKAswuQ9LHFdfX3EvAiEAiB/wQ3Yka6YLQ7liGjMLGw4MHIVSHXB55UYHLOhNXmE="
-                       sparkle:installerArguments="/SILENT /SP- /NOICONS"
-                       length="0"
-                       type="application/octet-stream" />
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.14.2/knobkraft_orm_setup_1.14.2.exe" sparkle:version="1.14.2" sparkle:dsaSignature="MEUCIEK+SIiTzjz+sirM5Icj0TRq9XBfKAswuQ9LHFdfX3EvAiEAiB/wQ3Yka6YLQ7liGjMLGw4MHIVSHXB55UYHLOhNXmE=" sparkle:installerArguments="/SILENT /SP- /NOICONS" length="0" type="application/octet-stream"/>
         </item>
         <item>
             <title>Version 1.14.1</title>
@@ -163,12 +98,7 @@ Qbre742jrDAx9fE3WIx8UFjo6OYRdA=="
                 https://christofmuc.github.io/appcasts/KnobKraft-Orm/1.14.1.html
             </sparkle:releaseNotesLink>
             <pubDate>20220205 12:59:00+2</pubDate>
-            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.14.1/knobkraft_orm_setup_1.14.1.exe"
-                       sparkle:version="1.14.1"
-                       sparkle:dsaSignature="MEUCIQCtQnGjdDXr2Md3EuK7sLqAzKWCYCaArxy6X35OupiNSgIgIsghrs+KOihGu1DZ9ueqgXKFVxv8lYEnA1PeflQGo1w="
-                       sparkle:installerArguments="/SILENT /SP- /NOICONS"
-                       length="0"
-                       type="application/octet-stream" />
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.14.1/knobkraft_orm_setup_1.14.1.exe" sparkle:version="1.14.1" sparkle:dsaSignature="MEUCIQCtQnGjdDXr2Md3EuK7sLqAzKWCYCaArxy6X35OupiNSgIgIsghrs+KOihGu1DZ9ueqgXKFVxv8lYEnA1PeflQGo1w=" sparkle:installerArguments="/SILENT /SP- /NOICONS" length="0" type="application/octet-stream"/>
         </item>
         <item>
             <title>Version 1.14.0</title>
@@ -176,12 +106,7 @@ Qbre742jrDAx9fE3WIx8UFjo6OYRdA=="
                 https://christofmuc.github.io/appcasts/KnobKraft-Orm/1.14.0.html
             </sparkle:releaseNotesLink>
             <pubDate>20220101 16:32:00+2</pubDate>
-            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.14.0/knobkraft_orm_setup_1.14.0.exe"
-                       sparkle:version="1.14.0"
-                       sparkle:dsaSignature="MEQCIBX6jgYM0bv1v8Oww4iucFyExaU1qW9PWHYvxhn4NIGSAiATtBqgWhcIy6jk6/uWZeAX7Hi/xIgqy0Z9TyGTptiy9A=="
-                       sparkle:installerArguments="/SILENT /SP- /NOICONS"
-                       length="0"
-                       type="application/octet-stream" />
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.14.0/knobkraft_orm_setup_1.14.0.exe" sparkle:version="1.14.0" sparkle:dsaSignature="MEQCIBX6jgYM0bv1v8Oww4iucFyExaU1qW9PWHYvxhn4NIGSAiATtBqgWhcIy6jk6/uWZeAX7Hi/xIgqy0Z9TyGTptiy9A==" sparkle:installerArguments="/SILENT /SP- /NOICONS" length="0" type="application/octet-stream"/>
         </item>
         <item>
             <title>Version 1.12.2</title>
@@ -189,12 +114,7 @@ Qbre742jrDAx9fE3WIx8UFjo6OYRdA=="
                 https://christofmuc.github.io/appcasts/KnobKraft-Orm/1.12.2.html
             </sparkle:releaseNotesLink>
             <pubDate>20210502 16:32:00+2</pubDate>
-            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.12.2/knobkraft_orm_setup_1.12.2.exe"
-                       sparkle:version="1.12.2"
-                       sparkle:dsaSignature="MEUCIB/sEZNuLTJC93q/fsH3mYM8ZveTHgaA1F4fwhohh2LqAiEAhKGhYZR1545UdcB9vzDKpoNugQw4v46/lvh0Q3PQAa0="
-                       sparkle:installerArguments="/SILENT /SP- /NOICONS"
-                       length="0"
-                       type="application/octet-stream" />
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.12.2/knobkraft_orm_setup_1.12.2.exe" sparkle:version="1.12.2" sparkle:dsaSignature="MEUCIB/sEZNuLTJC93q/fsH3mYM8ZveTHgaA1F4fwhohh2LqAiEAhKGhYZR1545UdcB9vzDKpoNugQw4v46/lvh0Q3PQAa0=" sparkle:installerArguments="/SILENT /SP- /NOICONS" length="0" type="application/octet-stream"/>
         </item>
         <item>
             <title>Version 1.12.1</title>
@@ -202,12 +122,7 @@ Qbre742jrDAx9fE3WIx8UFjo6OYRdA=="
                 https://christofmuc.github.io/appcasts/KnobKraft-Orm/1.12.1.html
             </sparkle:releaseNotesLink>
             <pubDate>20210408 11:48:00+2</pubDate>
-            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.12.1/knobkraft_orm_setup_1.12.1.exe"
-                       sparkle:version="1.12.1"
-                       sparkle:dsaSignature="MEUCIFN/nv5tq0MovZH4oDYNiSVGkjHLYa31z0JvygHHhpcFAiEAphZvcl4NUnkegxF7mGVxlM56kHTavOjCR/0MZQQqOWo="
-                       sparkle:installerArguments="/SILENT /SP- /NOICONS"
-                       length="0"
-                       type="application/octet-stream" />
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.12.1/knobkraft_orm_setup_1.12.1.exe" sparkle:version="1.12.1" sparkle:dsaSignature="MEUCIFN/nv5tq0MovZH4oDYNiSVGkjHLYa31z0JvygHHhpcFAiEAphZvcl4NUnkegxF7mGVxlM56kHTavOjCR/0MZQQqOWo=" sparkle:installerArguments="/SILENT /SP- /NOICONS" length="0" type="application/octet-stream"/>
         </item>
         <item>
             <title>Version 1.12.0</title>
@@ -215,12 +130,7 @@ Qbre742jrDAx9fE3WIx8UFjo6OYRdA=="
                 https://christofmuc.github.io/appcasts/KnobKraft-Orm/1.12.0.html
             </sparkle:releaseNotesLink>
             <pubDate>20210405 23:28:00+1</pubDate>
-            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.12.0/knobkraft_orm_setup_1.12.0.exe"
-                       sparkle:version="1.12.0"
-                       sparkle:dsaSignature="MEUCIQDa8WMq0sWv6ccLcp2pqZz/h4R1gU2aU2Q6kK2pm8jFoQIgK62kZZREyJ1u/ahQnlYZuKTBxo7TjKcEKLrZA0yDjdY="
-                       sparkle:installerArguments="/SILENT /SP- /NOICONS"
-                       length="0"
-                       type="application/octet-stream" />
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.12.0/knobkraft_orm_setup_1.12.0.exe" sparkle:version="1.12.0" sparkle:dsaSignature="MEUCIQDa8WMq0sWv6ccLcp2pqZz/h4R1gU2aU2Q6kK2pm8jFoQIgK62kZZREyJ1u/ahQnlYZuKTBxo7TjKcEKLrZA0yDjdY=" sparkle:installerArguments="/SILENT /SP- /NOICONS" length="0" type="application/octet-stream"/>
         </item>
         <item>
             <title>Version 1.11.2</title>
@@ -228,12 +138,7 @@ Qbre742jrDAx9fE3WIx8UFjo6OYRdA=="
                 https://christofmuc.github.io/appcasts/KnobKraft-Orm/1.11.2.html
             </sparkle:releaseNotesLink>
             <pubDate>20210122 23:15:00+1</pubDate>
-            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.11.2/knobkraft_orm_setup_1.11.2.exe"
-                       sparkle:version="1.11.2"
-                       sparkle:dsaSignature="MEQCIDKT4MXkSqO5WS1c4UMWH5Vw2p16hHhj054Ly1vA9eX8AiBedUvNJN1DIPmKonsQJWnSWaxGJV1v9ies5HHsPbWpGA=="
-                       sparkle:installerArguments="/SILENT /SP- /NOICONS"
-                       length="0"
-                       type="application/octet-stream" />
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.11.2/knobkraft_orm_setup_1.11.2.exe" sparkle:version="1.11.2" sparkle:dsaSignature="MEQCIDKT4MXkSqO5WS1c4UMWH5Vw2p16hHhj054Ly1vA9eX8AiBedUvNJN1DIPmKonsQJWnSWaxGJV1v9ies5HHsPbWpGA==" sparkle:installerArguments="/SILENT /SP- /NOICONS" length="0" type="application/octet-stream"/>
         </item>
         <item>
             <title>Version 1.11.1</title>
@@ -241,12 +146,7 @@ Qbre742jrDAx9fE3WIx8UFjo6OYRdA=="
                 https://christofmuc.github.io/appcasts/KnobKraft-Orm/1.11.1.html
             </sparkle:releaseNotesLink>
             <pubDate>20210120 12:15:00+1</pubDate>
-            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.11.1/knobkraft_orm_setup_1.11.1.exe"
-                       sparkle:version="1.11.1"
-                       sparkle:dsaSignature="MEQCIGtkL7icMAk6Gv/HkZF5Uu+qVOEFfKZA3I0dmX2QjBrHAiBbkWUSiZtUseg1JaCRdAJYTu4pdA/KCWE3x4gNMNFueg=="
-                       sparkle:installerArguments="/SILENT /SP- /NOICONS"
-                       length="0"
-                       type="application/octet-stream" />
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.11.1/knobkraft_orm_setup_1.11.1.exe" sparkle:version="1.11.1" sparkle:dsaSignature="MEQCIGtkL7icMAk6Gv/HkZF5Uu+qVOEFfKZA3I0dmX2QjBrHAiBbkWUSiZtUseg1JaCRdAJYTu4pdA/KCWE3x4gNMNFueg==" sparkle:installerArguments="/SILENT /SP- /NOICONS" length="0" type="application/octet-stream"/>
         </item>
         <item>
             <title>Version 1.11.0</title>
@@ -254,12 +154,13 @@ Qbre742jrDAx9fE3WIx8UFjo6OYRdA=="
                 https://christofmuc.github.io/appcasts/KnobKraft-Orm/1.11.0.html
             </sparkle:releaseNotesLink>
             <pubDate>20210118 00:15:00+1</pubDate>
-            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.11.0/knobkraft_orm_setup_1.11.0.exe"
-                       sparkle:version="1.11.0"
-                       sparkle:dsaSignature="MEUCIQDuCkvCdFpDrSJX5T93B3BOODFxe+LGPJKAM+WUEY0QkQIgQI9lRrHHMV3Mls80z6AtgNRqKdZtij08b8zzeBmfGoE="                                                                                       
-                       sparkle:installerArguments="/SILENT /SP- /NOICONS"
-                       length="0"
-                       type="application/octet-stream" />
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.11.0/knobkraft_orm_setup_1.11.0.exe" sparkle:version="1.11.0" sparkle:dsaSignature="MEUCIQDuCkvCdFpDrSJX5T93B3BOODFxe+LGPJKAM+WUEY0QkQIgQI9lRrHHMV3Mls80z6AtgNRqKdZtij08b8zzeBmfGoE=" sparkle:installerArguments="/SILENT /SP- /NOICONS" length="0" type="application/octet-stream"/>
+        </item>
+        <item>
+            <title>Version 2.0.4</title>
+            <sparkle:releaseNotesLink>https://christofmuc.github.io/appcasts/KnobKraft-Orm/2.0.4.html</sparkle:releaseNotesLink>
+            <pubDate>20230709 19:18:28+0</pubDate>
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/2.0.4/knobkraft_orm_setup_2.0.4.exe" sparkle:version="2.0.4" sparkle:dsaSignature="MEQCICMBiEpqHmSGqGmQUxzSi5XfMuUgSWyWhELrivQ7THviAiBfr0996UrWdh3O&#10;Ri8e+Q3RGcv6+/E9z5XPe28KeGhDsg==&#10;" sparkle:installerArguments="/SILENT /SP- /NOICONS /restartapplications" length="0" type="application/octet-stream"/>
         </item>
     </channel>
 </rss>
