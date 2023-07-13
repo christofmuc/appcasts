@@ -5,6 +5,12 @@
         <description>Update information for KnobKraft Orm Windows</description>
         <language>en</language>
         <item>
+            <title>Version 2.0.4</title>
+            <sparkle:releaseNotesLink>https://christofmuc.github.io/appcasts/KnobKraft-Orm/2.0.4.html</sparkle:releaseNotesLink>
+            <pubDate>20230713 21:45:27+0</pubDate>
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/2.0.4/knobkraft_orm_setup_2.0.4.exe" sparkle:version="2.0.4" sparkle:dsaSignature="MEYCIQC7tWg1PHxsn1JOd7H6WmXGCYt6nLT4K28eQm2kPTojogIhAIfH2LBJXsbY&#10;bYnJ99bA2GjrnjqLtbibK+48tqyPvcb4&#10;" sparkle:installerArguments="/SILENT /SP- /NOICONS /restartapplications" length="0" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Version 2.0.3</title>
             <sparkle:releaseNotesLink>
                 https://christofmuc.github.io/appcasts/KnobKraft-Orm/2.0.3.html
@@ -155,12 +161,6 @@
             </sparkle:releaseNotesLink>
             <pubDate>20210118 00:15:00+1</pubDate>
             <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/1.11.0/knobkraft_orm_setup_1.11.0.exe" sparkle:version="1.11.0" sparkle:dsaSignature="MEUCIQDuCkvCdFpDrSJX5T93B3BOODFxe+LGPJKAM+WUEY0QkQIgQI9lRrHHMV3Mls80z6AtgNRqKdZtij08b8zzeBmfGoE=" sparkle:installerArguments="/SILENT /SP- /NOICONS" length="0" type="application/octet-stream"/>
-        </item>
-        <item>
-            <title>Version 2.0.4</title>
-            <sparkle:releaseNotesLink>https://christofmuc.github.io/appcasts/KnobKraft-Orm/2.0.4.html</sparkle:releaseNotesLink>
-            <pubDate>20230713 21:45:27+0</pubDate>
-            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/2.0.4/knobkraft_orm_setup_2.0.4.exe" sparkle:version="2.0.4" sparkle:dsaSignature="MEYCIQC7tWg1PHxsn1JOd7H6WmXGCYt6nLT4K28eQm2kPTojogIhAIfH2LBJXsbY&#10;bYnJ99bA2GjrnjqLtbibK+48tqyPvcb4&#10;" sparkle:installerArguments="/SILENT /SP- /NOICONS /restartapplications" length="0" type="application/octet-stream"/>
         </item>
     </channel>
 </rss>
