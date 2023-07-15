@@ -1,6 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
+        <item>
+            <title>Version 2.0.5</title>
+            <sparkle:releaseNotesLink>https://christofmuc.github.io/appcasts/KnobKraft-Orm/2.0.5.html</sparkle:releaseNotesLink>
+            <pubDate>20230715 15:08:40+0</pubDate>
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/2.0.5/knobkraft_orm_setup_2.0.5.exe" sparkle:version="2.0.5" sparkle:dsaSignature="MEUCIBG42xvx66qajKYBkBRiUaxoZuG9n9ErTox/a0JnKpvSAiEA0l2A17WcvcfG&#10;Dt3s+fqFOOX+mCMaH9Ec9Yx2wwENywM=&#10;" sparkle:installerArguments="/SILENT /SP- /NOICONS /restartapplications" length="0" type="application/octet-stream"/>
+        </item>
         <title>KnobKraft Orm Appcast</title>
         <description>Update information for KnobKraft Orm Windows</description>
         <language>en</language>
