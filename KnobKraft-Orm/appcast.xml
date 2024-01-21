@@ -4,6 +4,12 @@
         <item>
             <title>Version 2.2.0</title>
             <sparkle:releaseNotesLink>https://christofmuc.github.io/appcasts/KnobKraft-Orm/2.2.0.html</sparkle:releaseNotesLink>
+            <pubDate>20240121 21:25:26+0</pubDate>
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/2.2.0/knobkraft_orm_setup_2.2.0.exe" sparkle:version="2.2.0" sparkle:dsaSignature="MEYCIQDIIJare/sE9A8UviQqypydkR8GmJORi6HXuiPxtW7AmAIhAJrm7niS2H+x&#10;xzrXW+aMC2qq8rOXLiyZsRHxfyakp54Y&#10;" sparkle:installerArguments="/SILENT /SP- /NOICONS /restartapplications" length="0" type="application/octet-stream"/>
+        </item>
+        <item>
+            <title>Version 2.2.0</title>
+            <sparkle:releaseNotesLink>https://christofmuc.github.io/appcasts/KnobKraft-Orm/2.2.0.html</sparkle:releaseNotesLink>
             <pubDate>20240121 21:07:40+0</pubDate>
             <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/2.2.0/knobkraft_orm_setup_2.2.0.exe" sparkle:version="2.2.0" sparkle:dsaSignature="MEUCIDt5JAVHphAwzrns9Jpk95loRindpp6pY9Hcmk5K9CYkAiEAid864kglUrr/&#10;zK24LesOIBMCRinvWQcN0THoicya39Q=&#10;" sparkle:installerArguments="/SILENT /SP- /NOICONS /restartapplications" length="0" type="application/octet-stream"/>
         </item>
