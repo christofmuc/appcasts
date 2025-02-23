@@ -1,0 +1,29 @@
+<h2>Features:</h2>
+<ul>
+<li><strong>#383</strong> Adding two new metadata fields for each patch, Author and Info. There is a new display mode that shows the author as
+subtitle in the grid. The Info field is a generic single line metadata field. Both fields are searchable via the text search. 
+Thanks to @RadekPilich for the suggestion!</li>
+<li><strong>#427</strong> Right click or shift/modifier click on any category or filter button will not automatically turn off the other filters already set,
+this allows for faster swichting e.g. between Lead and Pad, without having to deactivate the previously selected category. The same
+works when assigning a catageory to the currently selected patch in the side bar. I like this so much I might make it the default!
+Again, also a suggestion from @RadekPilich! </li>
+<li><strong>#389</strong> Removed the special case of the user list save to database button. Now, any change is immediately persisted to the database,
+and there is no undo much like in the rest of the system.</li>
+</ul>
+<h2>Synths:</h2>
+<ul>
+<li><strong>#73</strong> First alpha version for the Yamaha FS1R. Thanks to @markusschlosser for relentless testing!</li>
+<li><strong>#244</strong> Waldorf Pulse adaptation now confirmed to work by @markusschlosser. Thanks again!</li>
+<li><strong>#428</strong> Fixed tag import for the Generic Roland module, preventing tag import e.g. for JV-2080 to work. Thanks to @ivruebj for finding it
+and providing the fix!</li>
+<li><strong>#420</strong> Added 4 Addons banks to the Prophet X adaptation. Thanks to @Walleye-Sencza for pointing this out!</li>
+<li><strong>#429</strong> Applied fix for Korg M1 detection supplied by @Philippe593, thanks for this!</li>
+</ul>
+<h2>Bug fixes:</h2>
+<ul>
+<li><strong>#386</strong> Fixed deleting patches which were part of a synth bank via the menu. This did throw an error message and would just refuse
+to delete the patches. This new version allows to delete the patches also if they are part of a user list via the Edit... Delete... menu item -
+if a patch is part of a bank though it is hidden not and not deleted, as the bank structure needs to remain intact. Thanks to @RadekPilich for reporting!</li>
+<li><strong>#425</strong> Fixed text message on import that was confusing. Thanks @markusschlosser!</li>
+<li>Patch button in current patch side bar did not show color anymore. Fixed. </li>
+</ul>
