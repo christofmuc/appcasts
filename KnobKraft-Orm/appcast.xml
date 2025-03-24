@@ -2,6 +2,12 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>Version 2.6.2</title>
+            <sparkle:releaseNotesLink>https://christofmuc.github.io/appcasts/KnobKraft-Orm/2.6.2.html</sparkle:releaseNotesLink>
+            <pubDate>20250324 22:13:45+0</pubDate>
+            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/2.6.2/knobkraft_orm_setup_2.6.2.exe" sparkle:version="2.6.2" sparkle:dsaSignature="MEYCIQC8gQy8XlKUq0CcIeFXT28fHY3+7cpTr/9pXbf1sD6jpAIhAIgslAWnExeD&#10;a6fCtGHhhnOo/pppEuDJEetElHZtnpzG&#10;" sparkle:installerArguments="/SILENT /SP- /NOICONS /restartapplications" length="0" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Version 2.6.1</title>
             <sparkle:releaseNotesLink>https://christofmuc.github.io/appcasts/KnobKraft-Orm/2.6.1.html</sparkle:releaseNotesLink>
             <pubDate>20250224 23:41:32+0</pubDate>
