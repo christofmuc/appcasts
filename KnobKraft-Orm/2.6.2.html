@@ -1,0 +1,18 @@
+<h2>Features:</h2>
+<ul>
+<li><strong>#306</strong> Allow adaptations to create full bank dumps instead of only program dumps. Implemented this for the Yamaha DX-7, which 
+finally has the possibility to upload full banks, and to save banks via the export dialog. Other adaptations can now implement this
+capability as well. </li>
+<li><strong>#434</strong> Added clear button to the Keyboard Macro View - you can now remove a macro in case you set it on error.</li>
+<li>Added a new test method to simulate the handshake protocol between the Orm and a Synth, to be able to test full communication
+in the adaptation independent of the C++ software. This effectively implements the full Librarian logic from C++ again in Python.</li>
+</ul>
+<h2>Synths</h2>
+<ul>
+<li><strong>#449</strong> Adding in the Yamaha TX81Z adaptation contributed by @summersetter. Thanks for that!</li>
+<li><strong>#445</strong> Allow to import categories from the XV-3080 and XV-5080 by extending the mapping_categories.json file as suggested by @summersetter!</li>
+</ul>
+<h2>Bug fixes:</h2>
+<ul>
+<li><strong>#72</strong> Trying to fix the retry bank download problem occuring with the K5000 because the messages are large and there are partial sysex messages incoming.</li>
+</ul>
