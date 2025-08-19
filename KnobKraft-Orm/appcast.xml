@@ -8,12 +8,6 @@
             <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/2.7.0/knobkraft_orm_setup_2.7.0.exe" sparkle:version="2.7.0" sparkle:dsaSignature="MEUCIB9A05cZaFFaxtTMvDPXlu3G+VQb6G0MXZtk7q5AIlNiAiEA4BvG6JeNQ1XO&#10;LrIn8MzoyvNZByHfsvDhaEB0MJeMrIM=&#10;" sparkle:installerArguments="/SILENT /SP- /NOICONS /restartapplications" length="0" type="application/octet-stream"/>
         </item>
         <item>
-            <title>Version 2.6.4</title>
-            <sparkle:releaseNotesLink>https://christofmuc.github.io/appcasts/KnobKraft-Orm/2.6.4.html</sparkle:releaseNotesLink>
-            <pubDate>20250602 22:59:04+0</pubDate>
-            <enclosure url="https://github.com/christofmuc/KnobKraft-orm/releases/download/2.6.4/knobkraft_orm_setup_2.6.4.exe" sparkle:version="2.6.4" sparkle:dsaSignature="MEUCIGkueH08tW2P2ShLXCWLzgeeLh7442w261uxhXj+vkE1AiEAsAsK9mBSEy55&#10;/8kX276hmgdWo2PavKDE8G7TTVut3zA=&#10;" sparkle:installerArguments="/SILENT /SP- /NOICONS /restartapplications" length="0" type="application/octet-stream"/>
-        </item>
-        <item>
             <title>Version 2.6.3</title>
             <sparkle:releaseNotesLink>https://christofmuc.github.io/appcasts/KnobKraft-Orm/2.6.3.html</sparkle:releaseNotesLink>
             <pubDate>20250408 23:52:48+0</pubDate>
