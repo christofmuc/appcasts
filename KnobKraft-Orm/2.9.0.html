@@ -1,0 +1,26 @@
+<h2>Features:</h2>
+<ul>
+<li><strong>#438</strong> Added the LegacyLoaderCapability for adaptations that need to load older or non-standard file formats, and documented the new hook in the Adaptation Programming Guide.</li>
+<li><strong>#508</strong> Added the CustomProgramChangeCapability Python binding so adaptations can define their own program change behavior.</li>
+<li>Added a simulated MIDI wire test layer for adaptation tests, covering bank downloads, edit buffer requests, and send-to-synth code paths.</li>
+<li>Exposed the filename currently being processed to Python adaptations, so file-based import logic can make better decisions.</li>
+</ul>
+<h2>Synths:</h2>
+<ul>
+<li><strong>#433</strong> and <strong>#72</strong> Added the <strong>Kawai K5000</strong> adaptation with bank import support and test data. Heroic effort by @markusschloesser on this what I think is our most complex adpatation yet!</li>
+<li><strong>#517</strong> Added the <strong>Roland SE-02</strong> adaptation contributed by @MammaScan. Many thanks for this!</li>
+<li><strong>#501</strong> Improved <strong>Korg microKORG/microKORG S</strong> bank dump requests from @ilantz by returning the request sequence in the format expected by the C++ sender.</li>
+<li><strong>#460</strong> <strong>Korg R3</strong> adaptation added. By now it is possible to get adaptations 100% written by AI by just giving them the manual download. This adds a new GenericKorg python module which can be used for new Korg adaptations to reduce code duplication.</li>
+<li><strong>#464</strong> <strong>Roland JD-Xi</strong> adaptation added, also 100% AI</li>
+<li><strong>#503</strong> <strong>Roland U-20/U-220</strong> adpatation added, also 100% AI.</li>
+<li>Improved the <strong>Roland D-50</strong> adaptation and used it to the new mock MIDI tests, extending test coverage.</li>
+</ul>
+<h2>Bug fixes:</h2>
+<ul>
+<li><strong>#520</strong> Improved CMake Python detection with a fallback path and explicit Python 3.12+ version checks. Thanks for @ilantz for this!</li>
+<li><strong>#525</strong> Updated bundled third-party libraries, including JUCE 8.0.12, pybind11 3.0.3, spdlog 1.17.0, fmt 12.1.0, doctest 2.5.2, json 3.12.0, json-schema-validator 2.4.0, ICU, and WinSparkle.</li>
+<li><strong>#524</strong> Updated pytest to 9.0.3.</li>
+<li><strong>#319</strong> Added a docker build step testing that the archlinux version can be built as described by the README. Thanks to @fractalf for the details!</li>
+<li>Hardened the macOS <code>hdiutil</code> retry script and fixed an off-by-one retry loop error.</li>
+<li>Fixed a crash when a program buffer synth returned an empty list of bank descriptors.</li>
+</ul>
